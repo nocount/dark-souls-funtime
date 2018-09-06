@@ -1,348 +1,120 @@
-Name,Physical,Magic,Fire,Lightning
-Caestus,66,0,0,"0
-
-(Strike)"
-Claw,72,0,0,"0
-
-(Slash)"
+Name,Physical,Magic,Fire,Lightning,Total AR
+Caestus,66,0,0,0,66
+Claw,72,0,0,0,72
 Dark Hand
-Dragon Bone Fist,95,0,0,"0
-
-(Strike)"
-Blacksmith Giant Hammer,120,0,0,"200
-
-(Strike)"
-Blacksmith Hammer,87,0,0,"0
-
-(Strike)"
-Hammer of Vamos,115,0,64,"0
-
-(Strike)"
-Club,87,0,0,"0
-
-(Strike)"
-Mace,91,0,0,"0
-
-(Strike)"
-Morning Star,83,0,0,"0
-
-(Strike)"
-Pickaxe,89,0,0,"0
-
-(Thrust)"
-Reinforced Club,97,0,0,"0
-
-(Strike)"
-Warpick,91,0,0,"0
-
-(Thrust)"
-Demon's Great Hammer,138,0,0,"0
-
-(Strike)"
-Dragon Tooth,290,0,0,"0
-
-(Strike)"
-Grant,130,130,0,"0
-
-(Strike)"
-Great Club,135,0,0,"0
-
-(Strike)"
-Large Club,120,0,0,"0
-
-(Strike)"
-Smough's Hammer,300,0,0,"0
-
-(Strike)"
-Battle Axe,95,0,0,"0
-
-(Normal)"
-Butcher Knife,90,0,0,"0
-
-(Regular)"
-Crescent Axe,115,115,0,"0
-
-(Regular)"
-Gargoyle Tail Axe,93,0,0,"0
-
-(Regular)"
-Golem Axe,170,0,0,"0
-
-(Normal)"
-Hand Axe,80,0,0,"0
-
-(Normal)"
-Black Knight Greataxe,229,0,0,"0
-
-(Regular)"
-Demon's Greataxe,114,0,0,"0
-
-(Normal)"
-Dragon King Greataxe,380,0,0,"0
-
-(Regular)"
-Greataxe,140,0,0,"0
-
-(Regular)"
-Stone Greataxe,190,0,0,"0
-
-(Regular)"
-Bandit's Knife,56,0,0,"0
-
-Bleed 300
-
-(Slash)"
-Dagger,56,0,0,"0
-
-(Normal)"
-Dark Silver Tracer,75,0,0,"0
-
-(Slashing"
-Ghost Blade,110,0,0,"0
-
-(Normal)"
-Parrying Dagger,54,0,0,"0
-
-(Slash"
-Priscilla's Dagger,80,0,0,"0
-
-Bleed 500
-Dark 110
-
-(Normal)"
-Estoc,75,0,0,"0
-
-(Regular"
-Mail Breaker,57,0,0,"0
-
-(Normal)"
-Rapier,73,0,0,"0
-
-(Thrust)"
-Ricard's Rapier,70,0,0,"0
-
-(Thrust)"
-Velka's Rapier,62,104,0,"0
-
-Dark 110
-
-(Regular"
-Astora's Straight Sword,80,80,0,"0
-
-Holy 120
-
-(Normal"
-Balder Side Sword,80,0,0,"0
-
-(Normal)"
-Barbed Straight Sword,80,0,0,"0
-
-(Normal)"
-Broad Sword,82,0,0,"0
-
-(Normal)"
-Broken Straight Sword,40,0,0,"0
-
-(Regular"
+Dragon Bone Fist,95,0,0,0,95
+Blacksmith Giant Hammer,120,0,0,200,320
+Blacksmith Hammer,87,0,0,0,87
+Hammer of Vamos,115,0,64,0,179
+Club,87,0,0,0,87
+Mace,91,0,0,0,91
+Morning Star,83,0,0,0,83
+Pickaxe,89,0,0,0,89
+Reinforced Club,97,0,0,0,97
+Warpick,91,0,0,0,91
+Demon's Great Hammer,138,0,0,0,138
+Dragon Tooth,290,0,0,0,290
+Grant,130,130,0,0,260
+Great Club,135,0,0,0,135
+Large Club,120,0,0,0,120
+Smough's Hammer,300,0,0,0,300
+Battle Axe,95,0,0,0,95
+Butcher Knife,90,0,0,0,90
+Crescent Axe,115,115,0,0,230
+Gargoyle Tail Axe,93,0,0,0,93
+Golem Axe,170,0,0,0,170
+Hand Axe,80,0,0,0,80
+Black Knight Greataxe,229,0,0,0,229
+Demon's Greataxe,114,0,0,0,114
+Dragon King Greataxe,380,0,0,0,380
+Greataxe,140,0,0,0,140
+Stone Greataxe,190,0,0,0,190
+Bandit's Knife,56,0,0,0,56
+Dagger,56,0,0,0,56
+Dark Silver Tracer,75,0,0,0,75
+Ghost Blade,110,0,0,0,110
+Parrying Dagger,54,0,0,0,54
+Priscilla's Dagger,80,0,0,0,80
+Estoc,75,0,0,0,75
+Mail Breaker,57,0,0,0,57
+Rapier,73,0,0,0,73
+Ricard's Rapier,70,0,0,0,70
+Velka's Rapier,62,104,0,0,166
+Astora's Straight Sword,80,80,0,0,160
+Balder Side Sword,80,0,0,0,80
+Barbed Straight Sword,80,0,0,0,80
+Broad Sword,82,0,0,0,82
+Broken Straight Sword,40,0,0,0,40
 Crystal Straight Sword
-Dark Sword,82,0,0,"0
-
-(Normal)"
-Drake Sword,200,0,0,"0
-
-(Normal)"
-Longsword,80,0,0,"0
-
-(Normal)"
-Shortsword,78,0,0,"0
-
-(Regular"
-Silver Knight Straight Sword,175,0,0,"0
-
-(Normal)"
-Straight Sword Hilt,20,0,0,"0
-
-(Regular"
-Sunlight Straight Sword,82,0,0,"0
-
-(Normal)"
-Abyss Greatsword,160,0,0,"0
-
-(Regular)"
-Bastard Sword,105,0,0,"0
-
-(Regular)"
-Black Knight Sword,220,0,0,"0
-
-(Regular"
-Claymore,103,0,0,"0
-
-(Regular"
-Crystal Greatsword,190,0,0,"0
-
-(Regular)"
-Flamberge,100,0,0,"0
-
-(Slash)"
-Great Lord Greatsword,256,0,0,"0
-
-(Slash)"
-Greatsword of Artorias,120,85,0,"0
-
-Divine 140
-
-(Normal, Thrust)"
-Greatsword of Artorias (Cursed),178,0,0,"0
-
-(Normal, Thrust)"
-Man Serpent Greatsword,110,0,0,"0
-
-(Regular)"
-Moonlight Greatsword,0,132,0,"0
-
-(Normal)"
-Obsidian Greatsword,320,0,0,"0
-
-(Regular)"
-Stone Greatsword,148,100,0,"0
-
-(Regular)"
-Black Knight Greatsword,220,0,0,"0
-
-(Regular"
-Demon Great Machete,133,0,0,"0
-
-(Regular)"
-Dragon Greatsword,390,0,0,"0
-
-(Normal)"
-Greatsword,130,0,0,"0
-
-(Regular"
-Zweihander,130,0,0,"0
-
-(Regular)"
-Chaos Blade,144,0,0,"0
-
-Bleed 300
-
-(Normal)"
-Iaito,88,0,0,"0
-
-(Slash)"
-Uchigatana,90,0,0,"0
-
-(Slash"
-Washing Pole,90,0,0,"0
-
-(Slash"
-Falchion,82,0,0,"0
-
-(Slash)"
-Gold Tracer,130,0,0,"0
-
-(Slash)"
-Jagged Ghost Blade,155,0,0,"0
-
-Bleed 300
-
-(Slash"
-Painting Guardian Sword,76,0,0,"0
-
-(Slash)"
-Quelaag's Fury Sword,60,0,170,"0
-(Slash)"
-Scimitar,80,0,0,"0
-
-(Slash)"
-Shotel,82,0,0,"0
-(Slash)"
-Gravelord Sword,265,0,0,"0
-
-Toxin 300
-
-(Slashing)"
-Murakumo,113,0,0,"0
-
-(Slash)"
-Server,107,0,0,"0
-
-(Slash)"
-Channeler's Trident,70,115,0,"0
-
-(Thrust)"
-Demon's Spear,100,0,0,"120
-
-(Thrust)"
-Dragonslayer Spear,95,0,0,"65
-
-(Thrust)"
-Four-Pronged Plow,75,0,0,"0
-
-(Thrust)"
-Moonlight Butterfly Horn,0,120,0,"0
-
-(Thrust)"
-Partizan,80,0,0,"0
-
-(Regular "
-Pike,86,0,0,"0
-
-(Thrust)"
-Silver Knight Spear,163,0,0,"0
-
-(Regular"
-Spear,80,0,0,"0
-
-(Thrust)"
-Winged Spear,86,0,0,"0
-(Thrust)"
-Black Knight Halberd,245,0,0,"0
-
-(Slash)"
-Gargoyle's Halberd,115,0,0,"0
-
-(Regular)"
-Giant's Halberd,140,0,0,"135
-
-(Normal"
-Great Scythe,100,0,0,"0
-
-(Slash)"
-Halberd,110,0,0,"0
-
-(Regular"
-Lifehunt Scythe,180,0,0,"0
-
-(Regular)"
-Lucerne,110,0,0,"0
-
-(Thrust)"
-Scythe,110,0,0,"0
-
-(Slash)"
-Titanite Catch Pole,125,145,0,"0
-
-(Regular)"
-Black Bow of Pharis,34,0,0,0
-Composite Bow,55,0,0,0
-Darkmoon Bow,85,85,0,0
-Long Bow,36,0,0,0
-Short Bow,31,0,0,0
-Avelyn,37,0,0,"0
-
-(Normal)"
-Heavy Crossbow,55,0,0,0
-Light Crossbow,50,0,0,0
-Sniper Crossbow,52,0,0,0
-Dragonslayer Greatbow,90,0,0,0
-Gough's Greatbow,85,0,0,0
-Guardian Tail,84,0,0,"0
-
-(Regular)"
-Notched Whip,76,0,0,"0
-
-(Regular)"
-Whip,80,0,0,"0
-
-(Normal)"
+Dark Sword,82,0,0,0,82
+Drake Sword,200,0,0,0,200
+Longsword,80,0,0,0,80
+Shortsword,78,0,0,0,78
+Silver Knight Straight Sword,175,0,0,0,175
+Straight Sword Hilt,20,0,0,0,20
+Sunlight Straight Sword,82,0,0,0,82
+Abyss Greatsword,160,0,0,0,160
+Bastard Sword,105,0,0,0,105
+Black Knight Sword,220,0,0,0,220
+Claymore,103,0,0,0,103
+Crystal Greatsword,190,0,0,0,190
+Flamberge,100,0,0,0,100
+Great Lord Greatsword,256,0,0,0,256
+Greatsword of Artorias,120,85,0,0,205
+Greatsword of Artorias (Cursed),178,0,0,0,178
+Man Serpent Greatsword,110,0,0,0,110
+Moonlight Greatsword,0,132,0,0,132
+Obsidian Greatsword,320,0,0,0,320
+Stone Greatsword,148,100,0,0,248
+Black Knight Greatsword,220,0,0,0,220
+Demon Great Machete,133,0,0,0,133
+Dragon Greatsword,390,0,0,0,390
+Greatsword,130,0,0,0,130
+Zweihander,130,0,0,0,130
+Chaos Blade,144,0,0,0,144
+Iaito,88,0,0,0,88
+Uchigatana,90,0,0,0,90
+Washing Pole,90,0,0,0,90
+Falchion,82,0,0,0,82
+Gold Tracer,130,0,0,0,130
+Jagged Ghost Blade,155,0,0,0,155
+Painting Guardian Sword,76,0,0,0,76
+Quelaag's Fury Sword,60,0,170,0,230
+Scimitar,80,0,0,0,80
+Shotel,82,0,0,0,82
+Gravelord Sword,265,0,0,0,265
+Murakumo,113,0,0,0,113
+Server,107,0,0,0,107
+Channeler's Trident,70,115,0,0,185
+Demon's Spear,100,0,0,120,220
+Dragonslayer Spear,95,0,0,65,160
+Four-Pronged Plow,75,0,0,0,75
+Moonlight Butterfly Horn,0,120,0,0,120
+Partizan,80,0,0,0,80
+Pike,86,0,0,0,86
+Silver Knight Spear,163,0,0,0,163
+Spear,80,0,0,0,80
+Winged Spear,86,0,0,0,86
+Black Knight Halberd,245,0,0,0,245
+Gargoyle's Halberd,115,0,0,0,115
+Giant's Halberd,140,0,0,135,275
+Great Scythe,100,0,0,0,100
+Halberd,110,0,0,0,110
+Lifehunt Scythe,180,0,0,0,180
+Lucerne,110,0,0,0,110
+Scythe,110,0,0,0,110
+Titanite Catch Pole,125,145,0,0,270
+Black Bow of Pharis,34,0,0,0,34
+Composite Bow,55,0,0,0,55
+Darkmoon Bow,85,85,0,0,170
+Long Bow,36,0,0,0,36
+Short Bow,31,0,0,0,31
+Avelyn,37,0,0,0,37
+Heavy Crossbow,55,0,0,0,55
+Light Crossbow,50,0,0,0,50
+Sniper Crossbow,52,0,0,0,52
+Dragonslayer Greatbow,90,0,0,0,90
+Gough's Greatbow,85,0,0,0,85
+Guardian Tail,84,0,0,0,84
+Notched Whip,76,0,0,0,76
+Whip,80,0,0,0,80

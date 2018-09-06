@@ -23,7 +23,7 @@ print('There are ' + str(len(weapon_list)) + ' weapons in Dark Souls 1: ')
 with open('weapon_data.csv', 'w') as csv_file:
 
 	writer = csv.writer(csv_file)
-	header = ["Name", "Physical", "Magic", "Fire", "Lightning"]
+	header = ["Name", "Physical", "Magic", "Fire", "Lightning", "Total AR"]
 	writer.writerow(header)
 
 	#Parsing through weapon list - enumerate because printing all of them is slow
@@ -43,7 +43,8 @@ with open('weapon_data.csv', 'w') as csv_file:
 		wep_damage = wep_table.findAll('td')[2]
 		types = parse_damage_stats(wep_damage.text)
 		if(len(types) >= 4):
-			writer.writerow([wep.text, types[0], types[1], types[2], types[3]])
+			sumAR = int(types[0]) + int(types[1]) + int(types[2]) + int(types[3])
+			writer.writerow([wep.text, types[0], types[1], types[2], types[3], sumAR])
 		else:
 			writer.writerow([wep.text])
 		#print(wep_damage.text+'\n')
