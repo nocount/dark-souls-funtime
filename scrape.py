@@ -6,12 +6,17 @@ from urllib.parse import urljoin
 from bs4 import BeautifulSoup
 from util import parse_damage_stats
 import csv
+import MySQLdb
 
 #Loading the page into bs from weapon page url
 page_link = 'http://darksouls.wikidot.com/weapons'
 page = url(page_link)
 soup = BeautifulSoup(page, 'html.parser')
 
+#Writing to local mysql db
+conn=MySQLdb.connect(host='localhost',user='root',passwd='Fr0ntranger')
+cursor = conn.cursor()
+cursor.execute('USE dark_souls')
 #
 page_content = soup.findAll('div',{'id':'page-content'})
 weapon_table = page_content[0].table.tr.findAll('td')[1]
@@ -45,6 +50,10 @@ with open('weapon_data.csv', 'w') as csv_file:
 		if(len(types) >= 4):
 			sumAR = int(types[0]) + int(types[1]) + int(types[2]) + int(types[3])
 			writer.writerow([wep.text, types[0], types[1], types[2], types[3], sumAR])
+			sql = "INSERT INTO weapon_stats (name, phys, magic, fire, lightning, total, weapon_category) VALUES (%s, %s, %s, %s, %s, %s, %s)"
+			val = (wep.text, types[0], types[1], types[2], types[3], sumAR, "ITS like a sword or something")
+			cursor.execute(sql, val)
+			conn.commit()
 		else:
 			writer.writerow([wep.text])
 		#print(wep_damage.text+'\n')
