@@ -2,16 +2,16 @@
 
 #Libs
 import pandas
-import MySQLdb
+# import MySQLdb
 
-conn=MySQLdb.connect(host='localhost',user='root',passwd='Fr0ntranger')
-cursor = conn.cursor()
-cursor.execute('USE dark_souls')
+# conn=MySQLdb.connect(host='localhost',user='root',passwd='Fr0ntranger')
+# cursor = conn.cursor()
+# cursor.execute('USE dark_souls')
 
 
-cursor.execute('SELECT * FROM weapon_stats')
-results = cursor.fetchall()
-print(results)
+# cursor.execute('SELECT * FROM weapon_stats')
+# results = cursor.fetchall()
+# print(results)
 
 df = pandas.read_csv('weapon_data.csv')
 
